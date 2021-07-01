@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.header {
+    outline: 1px solid gold;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.content {
+    height: inherit;
+    display: flex;
+}
+
+.containerSectiont {
+    outline: 1px solid magenta;
+    flex: 1;
+}
+
+.aside {
+    outline: 1px solid rgb(0, 195, 255);
+    flex: 0 0 25%;
+}
+
+.footer {
+    outline: 1px solid salmon;
+    height: 6rem;
+    margin-top: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    list-style: none;
+    flex: 1;
+    outline: 1px solid cyan;
+    text-align: center;
+    transition: flex .5s;
+}
+
+.menuItem:hover {
+    flex: 8;
+}

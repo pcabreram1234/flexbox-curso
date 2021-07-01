@@ -1,0 +1,26 @@
+{
+  "name": "flexbox-curso",
+  "version": "1.0.0",
+  "description": "Repositorio para practicar todo lo relacionado con flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcabreram1234/flexbox-curso.git"
+  },
+  "keywords": [
+    "flexbox",
+    "frontEnd",
+    "HTMl",
+    "CSS",
+    "items"
+  ],
+  "author": "Phillip Cabrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcabreram1234/flexbox-curso/issues"
+  },
+  "homepage": "https://github.com/pcabreram1234/flexbox-curso#readme"
+}
